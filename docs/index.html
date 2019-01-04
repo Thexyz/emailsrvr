@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Emailsrvr</title>
+  <title>Postmaster</title>
   <link rel="stylesheet" type="text/css"
     href="https://eafdbc63c97ce6bec9ef-b0a668e5876bef6fe25684caf71db405.ssl.cf1.rackcdn.com/v1-latest/canon.min.css"/>
-  <link rel="stylesheet" type="text/css" href="/main.css">
+  <link rel="stylesheet" type="text/css" href="/static/main.css">
   <link rel="stylesheet" type="text/css" href="/static/postmaster_emailsrvr_com/styles.css">
   <link rel="shortcut icon" href="/static/favicon.ico" type="image/ico"/>
 </head>
@@ -17,8 +17,8 @@
       <div class="rs-container">
         <ul class="rs-nav">
           <li>
-            <a href="#"><img
-               src="https://www.thexyz.com/images/logo.png" />
+            <a href="#"><img class="mobile-logo thexyz"
+               src="https://752f77aa107738c25d93-f083e9a6295a3f0714fa019ffdca65c3.ssl.cf1.rackcdn.com/logos/rs-logo.svg" />
             </a>
           </li>
         </ul>
@@ -59,21 +59,13 @@
 
     <!-- Primary Nav -->
     <div class="rs-nav-primary">
-          <div class="rs-container">
-
+      <div class="rs-container">
+        <div class="rs-nav-brand thexyz">
+          <a href="#"></a>
+        </div>
         <ul class="rs-nav">
           <li class="rs-nav-item whitelabel active">
-            <a class="rs-nav-link" href="http://emailsrvr.org">
-              Home
-            </a>
-          </li>
-           <li class="rs-nav-item whitelabel">
-            <a class="rs-nav-link" href="https://status.emailsrvr.com/">
-              System Status
-            </a>
-          </li>
-           <li class="rs-nav-item whitelabel">
-            <a class="rs-nav-link" href="http://emailsrvr.org">
+            <a class="rs-nav-link" href="#">
               Home
             </a>
           </li>
@@ -139,7 +131,13 @@
       <div class="home rs-content rs-panel">
 <!--   Header Section  -->
         <div class="rs-detail-header">
-
+          <div class="thexyz rs-detail-header-actions">
+            <a target="_blank" href="https://www.thexyz.com/email-hosting/hosted-exchange">
+              <img class="rs-brand" src="/static/ms-exchange-logo.svg">
+            </a>
+            <a target="_blank" href="https://www.thexyz.com/email-hosting/webmail">
+              <img class="rs-brand" src="/static/rs-email-logo.svg">
+            </a>
           </div>
           <div class="rs-detail-header-subtitle">Postmaster</div>
           <div class="rs-detail-header-title">Welcome</div>
@@ -153,14 +151,9 @@
             
               <span class="none">
                 <p><span class="whitelabel">
-emailsrvr.org is an enterprise business email hosting service focused on reducing spam through multiple blacklist checks and premium . We provide a completely white-label email hosting service used by businesses world-wide.
-
-If you are having mail delivery issues with rejection notices including the text blagr.emailsrvr.com, please click here to determine why you are blocked.
-
-If you have any questions regarding email with emailsrvr, please contact us via the contact box at the bottom of the screen.
-
-If you need assistance with your email which is hosted by emailsrvr.org, please contact your administrator.
-
+The postmaster site provides information about how mail is sent and received on our system. This
+information is useful for ensuring proper delivery of email, both inside our service and between our
+service and other providers.
 </span></p>
 <p><span class="thexyz">
 Welcome to the thexyz Email Postmaster site. This site is specifically for the
@@ -179,54 +172,54 @@ For more information about our hosted email services, you can visit us
         <div class="rs-detail-section">
           <div class="rs-inner">
             <div class="rs-row">
-              <a href="https://help.emailsrvr.com">
+              <a href="/system-info/response-codes">
                 <div class="span-6 home-nav response-codes">
                   <div class="home-nav-content">
-                    Setup you email account
+                    Got an error code you don't understand?
                   </div>
                   <div class="rs-pull-right icon icon-notification"></div>
                 </div>
               </a>
-              <a href="https://webmail.emailsrvr.com">
+              <a href="/system-info/email-limits">
                 <div class="span-6 home-nav email-limits">
                   <div class="home-nav-content">
-                    Login to Webmail
+                    Do you know how much mail you can send/receive?
                   </div>
                   <div class="rs-pull-right icon icon-meter"></div>
                 </div>
               </a>
             </div>
             <div class="rs-row">
-              <a href="http://blaggregate.emailsrvr.com/">
+              <a href="/system-info/sending-ips">
                 <div class="span-6 home-nav sending-ips">
                   <div class="home-nav-content">
-                    Spam Blacklist Aggregator
+                    Looking for info about where our mail is sent from?
                   </div>
                   <div class="rs-pull-right icon icon-upload3"></div>
                 </div>
               </a>
-              <a href="https://admin.emailsrvr.com">
+              <a href="/best-practices">
                 <div class="span-6 home-nav best-practices">
                   <div class="home-nav-content">
-                    Email Administrators
+                    Want to ensure your email has high deliverability?
                   </div>
                 <div class="rs-pull-right icon icon-download"></div>
                 </div>
               </a>
             </div>
             <div class="rs-row">
-              <a href="https://postmaster.emailsrvr.com">
+              <a href="/faq">
                 <div class="span-6 home-nav faq">
                   <div class="home-nav-content">
-                    Postmaster Information
+                    Have a question for us?
                   </div>
                   <div class="rs-pull-right icon icon-question"></div>
                 </div>
               </a>
-              <a href="https://status.emailsrvr.com">
+              <a href="/external-resources">
                 <div class="span-6 home-nav external-resources">
                   <div class="home-nav-content">
-                    System Status
+                    Searching for something else?
                   </div>
                   <div class="rs-pull-right icon icon-new-tab"></div>
                 </div>
@@ -235,7 +228,55 @@ For more information about our hosted email services, you can visit us
           </div>
         </div>
 <!--   End Home Nav Section -->
+
+        <div class="thexyz rs-detail-section">
+          <div class="rs-inner">
+            <h2> Postmaster News Feed </h2>
+              <span class="rs-row">
+                
+                  <span class="span-6 blog-post">
+                    <h4> DNS Record Recommendations  </h4>
+                    <div class="blog-post-body">
+                      <p>Our hosted email infrastructure is continually evolving.
+As a result, IP addresses will change as part of improving the service.
+To ensure the best connectivity, use mx[1-2].emailsrvr.com in DNS and secure.emailsrvr.com on sending software.
+Hard-coding IP addresses will lead to future delivery problems for your domain.</p>
+                    </div>
+                    <br>
+                    <div class="blog-post-footer">
+                      <h6 class="rs-quiet"> 2018-04-06 </h6>
+                      <hr>
+                    </div>
+                  </span>
+                
+                  <span class="span-6 blog-post">
+                    <h4> New IP Ranges Added  </h4>
+                    <div class="blog-post-body">
+                      <p>We have added the following New IP ranges for sending:</p>
+<ul>
+<li>146.20.161.64/26</li>
+<li>146.20.161.63</li>
+<li>146.20.86.8</li>
+</ul>
+                    </div>
+                    <br>
+                    <div class="blog-post-footer">
+                      <h6 class="rs-quiet"> 2018-02-12 </h6>
+                      <hr>
+                    </div>
+                  </span>
+                
+              </span>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
 </div>
+
+    <div class="rs-push"></div>
+  </div>
   <!-- End of Body Wrapper-->
 
   <!-- Start of Footer -->
@@ -275,7 +316,7 @@ For more information about our hosted email services, you can visit us
           </li>
         </ul>
         <ul class="rs-nav rs-pull-right">
-          <li class="rs-nav-item">© 2019 Thexyz Inc</li>
+          <li class="rs-nav-item">© 2017 thexyz, US</li>
         </ul>
       </div>
     </span>
