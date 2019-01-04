@@ -1,0 +1,490 @@
+/* This is for the icon font*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6ksxcc');
+  src:  url('fonts/icomoon.eot?6ksxcc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6ksxcc') format('truetype'),
+    url('fonts/icomoon.woff?6ksxcc') format('woff'),
+    url('fonts/icomoon.svg?6ksxcc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thumbs-up:before {
+  content: "\e901";
+}
+.icon-box-add:before {
+  content: "\e95e";
+}
+.icon-box-remove:before {
+  content: "\e95f";
+}
+.icon-download:before {
+  content: "\e960";
+}
+.icon-upload:before {
+  content: "\e961";
+}
+.icon-meter:before {
+  content: "\e9a6";
+}
+.icon-upload3:before {
+  content: "\e9c8";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
+}
+
+body {
+  margin: 0px;
+  font-size: 30px;
+  line-height: 30px;
+  min-width: 1092px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h4 {
+  font-size: 28px;
+  color: #c40022;
+}
+
+h6 {
+  font-size: 19px;
+}
+
+li {
+  padding-bottom: 7px;
+}
+
+.blog-post-body li {
+  padding-bottom: 0px;
+}
+
+.rs-nav-footer {
+  display: none;
+}
+.rs-nav-primary {
+  display: none;
+}
+.rs-nav-secondary {
+  display: none;
+}
+
+.rs-icon-external {
+  margin-left: 0;
+  margin-right: 2px;
+}
+
+.rs-list-table {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.rs-detail-header-title {
+  color: #c40022;
+  font-size: 45px;
+  line-height: 45px;
+}
+.rs-detail-header-subtitle {
+  font-size: 20px;
+}
+
+.response-codes .rs-list-table td,
+.response-doces .rs-list-table th {
+  width: 15%;
+}
+.response-codes .rs-list-table td:last-child,
+.response-codes .rs-list-table th:last-child {
+  width: 100%;
+}
+
+.gray-headings h3 {
+  color: #999;
+  font-weight: 400;
+}
+
+.home .rs-detail-header .rs-detail-header-actions {
+  width: 475px;
+}
+.home .rs-detail-header .rs-brand {
+  max-width: 190px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.rs-row .home-nav {
+  color: #333;
+  font-weight: bold;
+  font-size: 30px;
+  width: 100%;
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #888;
+  position: relative;
+}
+.home-nav-content {
+  float: left;
+  padding: 50px 0px 50px 40px;
+}
+.icon {
+  font-size: 110px;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: rgba(0,0,0,0.10);
+  position: absolute;
+  right: 0;
+}
+.rs-detail-header .icon {
+  margin-top: -15px;
+  font-size: 110px;
+  color: #0072c6;
+  opacity: .5;
+}
+
+.rs-container {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rs-wrapper {
+  margin: 0 auto -80px;
+}
+
+.rs-detail-section {
+  border-top: 1px solid #eee;
+}
+
+.home-nav.response-codes {
+  background-color: #ffb3ba;
+  background: -webkit-linear-gradient(top,#fdcaca 0,#ffb3ba 100%);
+}
+.home-nav.response-codes:hover {
+  background-color: #fdcaca;
+  background: -webkit-linear-gradient(top,#fdcaca 0,#fdcaca 100%);
+}
+
+.home-nav.email-limits {
+  background-color: #bae1ff;
+  background: -webkit-linear-gradient(top,#d6ebfb 0,#bae1ff 100%);
+}
+.home-nav.email-limits:hover {
+  background-color: #d6ebfb;
+  background: -webkit-linear-gradient(top,#d6ebfb 0,#d6ebfb 100%);
+}
+
+.home-nav.sending-ips {
+  background-color: #97f3aa;
+  background: -webkit-linear-gradient(top,#baffc9 0,#97f3aa 100%);
+}
+.home-nav.sending-ips:hover {
+  background-color: #baffc9;
+  background: -webkit-linear-gradient(top,#baffc9 0,#baffc9 100%);
+}
+
+.home-nav.best-practices {
+  background-color: #f9d0a1;
+  background: -webkit-linear-gradient(top,#ffdfba 0,#f9d0a1 100%);
+}
+.home-nav.best-practices:hover {
+  background-color: #ffdfba;
+  background: -webkit-linear-gradient(top,#ffdfba 0,#ffdfba 100%);
+}
+
+.home-nav.faq {
+  background-color: #e6baf7;
+  background: -webkit-linear-gradient(top,#f2d6fd 0,#e6baf7 100%);
+}
+.home-nav.faq:hover {
+  background-color: #f2d6fd;
+  background: -webkit-linear-gradient(top,#f2d6fd 0,#f2d6fd 100%);
+}
+
+.home-nav.external-resources {
+  background-color: #69f5d5;
+  background: -webkit-linear-gradient(top,#bbf3e6 0,#69f5d5 100%);
+}
+
+.home-nav.external-resources:hover {
+  background-color: #bbf3e6;
+  background: -webkit-linear-gradient(top,#bbf3e6 0,#bbf3e6 100%);
+}
+
+.rackspace {
+  display: none;
+}
+
+.rs-nav-brand+.rs-nav {
+  padding-left: 0px;
+}
+
+.rs-nav-utility {
+  min-height: 90px;
+}
+
+.external-resources p {
+  margin: 0 0 25px;
+}
+
+.rs-detail-section-title {
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.rs-nav-utility .rs-nav.rs-pull-right>li {
+  margin: 0 30px 0 0;
+}
+
+.rs-utility-dropdown .rs-dropdown-menu {
+  right: -30px;
+  top: 80px;
+}
+
+.rs-utility-dropdown .rs-dropdown-menu .rs-dropdown-link {
+  padding: 21px 30px;
+  font-size: 60px;
+}
+
+.blog-post {
+  position: relative;
+  height: 250px;
+}
+
+.blog-post-body {
+  overflow: auto;
+  height: 160px;
+}
+
+.blog-post-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.rs-row .blog-post {
+  width: 100%;
+}
+
+.rs-row .blog-post {
+  margin-left: 0%;
+}
+
+.mobile-logo {
+  height: 50px;
+}
+
+.mobile-menu {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 45px;
+    height: 9px;
+    background-color: white;
+    margin: 9px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-18px, 6px) ;
+    transform: rotate(-45deg) translate(-18px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-18px, -8px) ;
+    transform: rotate(45deg) translate(-18px, -8px) ;
+}
+
+.rs-nav {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-device-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  .rs-list-table {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .rs-detail-header-title {
+    font-size: 32px;
+    line-height: 24px;
+  }
+
+  .rs-nav-primary {
+    display: block;
+  }
+  .rs-nav-primary .rs-nav>li>a {
+    font-size: 21px;
+  }
+
+  .rs-nav-secondary {
+    display: block;
+  }
+  .rs-nav-secondary .rs-nav>li {
+    font-size: 16px;
+  }
+
+  .tooltip:hover .rs-tooltip {
+    display: block;
+  }
+
+  .rs-dropdown:hover .rs-dropdown-menu {
+    display: block;
+  }
+
+  .home .rs-detail-header .rs-detail-header-actions {
+    width: 365px;
+  }
+
+  .home .rs-detail-header-actions a:hover{
+    text-decoration: none;
+  }
+
+  .home .rs-detail-header .rs-brand {
+    max-width: 150px;
+    padding-left: 30px;
+    padding-top: 0px;
+  }
+
+  .rs-row .home-nav {
+    font-size: 15px;
+    width: 49.1071428571%;
+  }
+
+  .home-nav-content {
+    padding: 30px 0px 30px 15px;
+  }
+
+  .icon {
+    font-size: 64px;
+    margin-right: 15px;
+  }
+
+  .rs-container {
+    width: 1030px;
+    padding: 0 30px;
+  }
+
+  .rs-detail-header-subtitle {
+    font-size: 14px;
+  }
+
+  .rs-nav-utility {
+    min-height: 40px;
+  }
+
+  .rs-wrapper {
+    margin: 0 auto -35px;
+  }
+
+  .rs-detail-header .icon {
+    margin-top: -15px;
+    font-size: 76px;
+  }
+
+  .external-resources p {
+    margin: 0 0 10px;
+  }
+
+  .rs-detail-section-title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .rs-nav .rs-utility-dropdown {
+    display: none;
+  }
+
+  img.mobile-logo {
+    display: none;
+  }
+
+  .rs-nav {
+    margin: 0;
+  }
+
+  .rs-row .blog-post {
+    width: 49.1071428571%;
+  }
+
+  .blog-post-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .rs-row .blog-post:nth-child(even) {
+    margin-left: 1.7857142857%;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  .rs-nav-footer {
+    display: block;
+    line-height: 20px;
+    height: 40px;
+  }
+
+  .rs-nav-footer .rs-nav>li {
+    padding-bottom: 0px;
+  }
+}
