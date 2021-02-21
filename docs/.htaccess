@@ -1,0 +1,20 @@
+# security headers
+
+<IfModule mod_headers.c>
+Header set Content-Security-Policy: "frame-ancestors 'self'" 
+Header set X-Frame-Options "SAMEORIGIN" 
+Header set X-Xss-Protection "1; mode=block"
+Header set Referrer-Policy: no-referrer-when-downgrade
+Header set X-Content-Type-Options "nosniff"
+Header set Permissions-Policy "geolocation 'self' https://xyz.am; microphone=()"
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+Header set Expect-CT enforce,max-age=2592000,report-uri="https://xyz.am/report"
+#Header always set Strict-Transport-Security “max-age=63072000; includeSubdomains;”
+</IfModule>
+
+# Handles errors
+
+ErrorDocument 400 https://400.thexyz.com
+ErrorDocument 403 https://403.thexyz.com
+ErrorDocument 404 https://404.thexyz.com
+ErrorDocument 500 http://500.thexyz.com
