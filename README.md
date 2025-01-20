@@ -25,7 +25,7 @@
 
 ## Getting Started
 
-To learn more about our email hosting service or to get started, visit [Emailsrvr.com](https://www.thexyz.com) and explore our comprehensive documentation and resources.
+To learn more about our email hosting service or to get started, visit [Thexyz.com](https://www.thexyz.com) and explore our comprehensive documentation and resources.
 
 ## Contributing
 
